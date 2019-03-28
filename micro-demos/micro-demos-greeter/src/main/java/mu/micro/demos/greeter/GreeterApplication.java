@@ -1,13 +1,16 @@
-package mu.micro.spring.client;
+package mu.micro.demos.greeter;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class MicroSpringClientApplication {
+@Slf4j
+public class GreeterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroSpringClientApplication.class, args);
+        SpringApplication.run(GreeterApplication.class, args);
     }
 
 }
